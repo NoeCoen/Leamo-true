@@ -1,0 +1,23 @@
+.front-img-container {
+  position: absolute;
+  width: 100%;
+  height: 520px;
+  padding: 0px;
+  overflow: hidden;
+  z-index: -10;
+}
+
+.front-img {
+  width: 100%;
+  position: relative;
+  z-index: -10;
+  bottom: 500px;
+  opacity: 80%;
+}
+
+.forme-1 {
+  position: relative;
+  right: 100px;
+  top: 150px;
+  z-index: -9;
+}
