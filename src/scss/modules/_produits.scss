@@ -1,3 +1,21 @@
 .produits {
   background-image: url(../img/forme2.svg);
+  background-repeat: no-repeat;
+}
+
+.related-produit img {
+  background-color: #e2e6cc;
+  margin: 5px;
+  padding-bottom: 30px;
+}
+
+.related-produit p {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+
+.produits-title {
+  font-weight: bold;
+  text-align: center;
 }
