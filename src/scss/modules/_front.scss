@@ -17,7 +17,14 @@
 
 .forme-1 {
   position: relative;
-  right: 100px;
+  right: 200px;
   top: 150px;
   z-index: -9;
+}
+
+.front {
+  background-image: url(../img/forme1.svg);
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-position: left;
 }
