@@ -1,3 +1,23 @@
-.footer {
-  background-color: red;
+footer {
+  background-color: #e2e6cc;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.footer-txt {
+  font-size: 15px;
+}
+
+.footer-txt p {
+  margin: 10px auto;
+}
+
+.logo-container {
+  margin: auto;
+}
+
+.footer .f-container {
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px auto;
 }
