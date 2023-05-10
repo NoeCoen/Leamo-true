@@ -1,6 +1,14 @@
 .produits {
+  width: 100%;
+  padding-top: 190px;
+}
+
+.container-container-produit {
   background-image: url(../img/forme2.svg);
   background-repeat: no-repeat;
+  width: 100%;
+  height: 1000px;
+  background-position-x: right;
 }
 
 .related-produit img {
@@ -18,4 +26,8 @@
 .produits-title {
   font-weight: bold;
   text-align: center;
+}
+
+.content-container {
+  margin: 0 auto;
 }

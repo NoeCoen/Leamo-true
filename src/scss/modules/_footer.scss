@@ -5,7 +5,8 @@ footer {
 }
 
 .footer-txt {
-  font-size: 11px;
+  font-size: 10px;
+  margin: auto;
 }
 
 .footer-txt p {
@@ -14,10 +15,16 @@ footer {
 
 .logo-container {
   margin: auto;
+  text-align: center;
 }
 
 .footer .f-container {
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 10px auto;
+  justify-content: space-between;
+  margin: 15px 30px;
+  font-size: 40px;
+}
+
+.logo-container img {
+  height: 80px;
 }
