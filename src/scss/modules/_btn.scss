@@ -12,6 +12,7 @@
   text-align: center;
   border-radius: 33px;
   margin: 30px 0 30px auto;
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-container-special {
@@ -21,4 +22,9 @@
   text-align: center;
   border-radius: 33px;
   margin: 30px auto;
+}
+
+.btn-container:hover {
+  background-color: #131313;
+  color: #e2e6cc;
 }
