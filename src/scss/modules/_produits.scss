@@ -1,9 +1,3 @@
-.produits {
-  width: 100%;
-  padding-top: 190px;
-  margin-top: 80px;
-}
-
 .container-container-produit {
   background-image: url(../img/forme2.svg);
   background-repeat: no-repeat;
@@ -65,4 +59,33 @@
 
 .related-produit-hover:hover {
   opacity: 100%;
+}
+
+@media (min-width: 800px) {
+  .produits {
+    width: 100%;
+    padding-top: 190px;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .container-related-produit {
+    overflow: scroll;
+    flex-wrap: nowrap;
+  }
+  .container-container-produit {
+    height: 400px;
+    background-size: 90%;
+    background-position-y: 50px;
+  }
+  .related-produit p {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    left: 5px;
+  }
+  .related-produit-hover {
+    display: none;
+  }
 }
