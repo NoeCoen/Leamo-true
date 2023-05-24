@@ -22,15 +22,20 @@
   z-index: -9;
 }
 
-.front {
+.container-container-front {
+  margin-top: 20px;
   background-image: url(../img/forme1.svg);
   background-repeat: no-repeat;
-  height: 1000px;
   background-position: left;
-  margin-top: 380px;
+  background-position-y: 200px;
+  height: 1000px;
 }
 
 .front-text {
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+.front .title-front {
+  margin-top: 350px;
 }
