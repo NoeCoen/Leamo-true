@@ -20,11 +20,15 @@ footer {
 
 .footer .f-container {
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 15px 30px;
   font-size: 40px;
 }
 
 .logo-container img {
   height: 80px;
+}
+
+.footer .f-container i {
+  margin: 0 5px;
 }
