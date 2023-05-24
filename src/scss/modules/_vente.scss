@@ -10,3 +10,23 @@
   overflow: hidden;
   height: 400px;
 }
+
+@media (max-width: 800px) {
+  .container-container-vente {
+    background-size: 90%;
+    background-position-y: 50px;
+    height: 350px;
+  }
+  .points-de-vente-text {
+    text-align: center;
+  }
+  .points-de-vente-img-container {
+    height: 130px;
+  }
+  .vente-btn .btn-container {
+    margin: 0 0;
+  }
+  .vente-btn {
+    margin-top: 20px;
+  }
+}

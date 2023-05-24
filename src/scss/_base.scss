@@ -65,12 +65,6 @@ html {
   font-size: 20px;
 }
 
-h2 {
-  justify-content: center;
-  margin: 30px;
-  letter-spacing: 3px;
-}
-
 .part-container {
   margin: 150px auto;
 }
@@ -96,10 +90,21 @@ p {
 }
 
 @media (max-width: 800px) {
-  html {
+  p {
     font-size: 12px;
   }
   .part-container {
     margin: 30px auto;
+  }
+  h2 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 800px) {
+  h2 {
+    justify-content: center;
+    margin: 30px;
+    letter-spacing: 3px;
   }
 }
