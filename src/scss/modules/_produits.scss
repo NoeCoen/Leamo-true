@@ -32,4 +32,37 @@
 
 .content-container {
   margin: 0 auto;
+  position: relative;
+}
+
+.related-produit-hover img {
+  backdrop-filter: blur(5px);
+  background-color: #e2e6cc60;
+  margin: 5px;
+  padding-bottom: 30px;
+  transition: 0.2s ease-in-out;
+}
+
+.produits-hover {
+  position: absolute;
+  top: 90px;
+}
+
+.related-produit-hover p {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.related-produit-hover {
+  position: relative;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.related-produit-hover:hover {
+  opacity: 100%;
 }
