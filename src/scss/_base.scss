@@ -94,3 +94,9 @@ h1 {
 p {
   letter-spacing: 2.5px;
 }
+
+@media (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+}

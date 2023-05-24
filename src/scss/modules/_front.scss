@@ -49,3 +49,18 @@
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+@media (max-width: 800px) {
+  .front .title-front {
+    display: none;
+  }
+  .front-text {
+    margin-top: 140px;
+    font-weight: normal;
+  }
+  .container-container-front {
+    height: 310px;
+    background-size: 90%;
+    background-position-y: 60px;
+  }
+}
