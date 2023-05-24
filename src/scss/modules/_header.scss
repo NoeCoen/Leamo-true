@@ -41,3 +41,39 @@ header a {
 .nav-princ a:hover {
   transform: scale(1.1);
 }
+
+.sm-nav {
+  text-align: center;
+}
+
+.langue-sm i {
+  text-align: center;
+  text-decoration: none;
+}
+
+.sm-title {
+  text-align: center;
+  position: relative;
+  bottom: 6px;
+}
+
+@media (max-width: 800px) {
+  .lg-nav {
+    display: none;
+  }
+  .langue-lg {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .sm-nav {
+    display: none;
+  }
+  .langue-sm {
+    display: none;
+  }
+  .sm-title {
+    display: none;
+  }
+}

@@ -32,3 +32,19 @@ footer {
 .footer .f-container i {
   margin: 0 5px;
 }
+
+.alterfood-footer {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .logo-footer i {
+    font-size: 30px;
+  }
+  .footer .f-container {
+    flex-wrap: nowrap;
+  }
+  .footer-txt p {
+    margin: 0;
+  }
+}

@@ -13,7 +13,7 @@
   <header>
     <div class="container navigation"></div>
     <div class="row">
-      <div class="col-lg-8 offset-lg-2">
+      <div class="col-lg-8 offset-lg-2 lg-nav">
         <div class="f-container nav-princ">
           <a href="">produits</a>
           <p>/</p>
@@ -26,7 +26,13 @@
           <a href="">points de vente</a>
         </div>
       </div>
-      <div class="col-lg-2">
+      <div class="col-3 sm-nav">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="col-6 sm-title">
+        <img src="img/Leamo-Logo-Black.svg" alt="Leamo" />
+      </div>
+      <div class="col-lg-2 langue-lg">
         <div class="f-container nav-sec">
           <a href="" class="lng-fr lng-selected">fr</a>
           <p>/</p>
@@ -34,6 +40,9 @@
           <p>/</p>
           <a href="" class="lng-en">en</a>
         </div>
+      </div>
+      <div class="col-3 langue-sm">
+        <a href="" class="lng-fr lng-selected">fr</a>
       </div>
     </div>
   </header>
@@ -200,21 +209,23 @@
   <footer>
     <div class="container footer">
       <div class="row">
-        <div class="col-lg-4 footer-txt">
-          <p>Contacts : <a href="">Leamo@mail.com</a></p>
-          <p><a href="">Mentions légales</a></p>
-          <p>® LEAMO is a brand from Alterfood - instagram/alterfood</p>
-        </div>
-        <div class="col-lg-4 logo-container">
+        <div
+          class="col-6 offset-sm-1 col-lg-4 logo-container order-lg-2 alterfood-footer"
+        >
           <img src="img/logo-alterfood-black.svg" alt="logo alterfood" />
         </div>
-        <div class="col-lg-2 offset-lg-2">
+        <div class="col-4 col-lg-2 offset-lg-2 col-6 order-lg-3">
           <div class="f-container">
             <p class="logo-footer"><i class="fa-brands fa-instagram"></i></p>
             <p class="logo-footer"><i class="fa-brands fa-facebook"></i></p>
             <p class="logo-footer"><i class="fa-brands fa-linkedin"></i></p>
             <p class="logo-footer"><i class="fa-brands fa-youtube"></i></p>
           </div>
+        </div>
+        <div class="col-10 offset-sm-1 col-lg-4 footer-txt col-10 order-lg-1">
+          <p>Contacts : <a href="">Leamo@mail.com</a></p>
+          <p><a href="">Mentions légales</a></p>
+          <p>® LEAMO is a brand from Alterfood - instagram/alterfood</p>
         </div>
       </div>
     </div>
