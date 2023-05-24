@@ -1,3 +1,14 @@
-.valeurs {
-  margin-top: 80px;
+@media (max-width: 800px) {
+  .valeurs {
+    text-align: center;
+  }
+  .valeurs-text {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 800px) {
+  .valeurs {
+    margin-top: 80px;
+  }
 }
