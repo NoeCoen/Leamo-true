@@ -45,3 +45,20 @@ lngopener.addEventListener("click", openmenu);
 lngfr.addEventListener("click", frclose);
 lngde.addEventListener("click", declose);
 lngen.addEventListener("click", enclose);
+
+var closebtn = document.querySelector(".close-btn");
+var openbtn = document.querySelector(".open-btn");
+var bignav = document.querySelector(".navigation-mobile");
+
+var openbignav = function () {
+  bignav.classList.add("is-visible");
+  bignav.classList.remove("is-not-visible");
+};
+
+var closemenu = function () {
+  bignav.classList.remove("is-visible");
+  bignav.classList.add("is-not-visible");
+};
+
+closebtn.addEventListener("click", closemenu);
+openbtn.addEventListener("click", openbignav);
