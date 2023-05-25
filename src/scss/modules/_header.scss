@@ -46,9 +46,39 @@ header a {
   text-align: center;
 }
 
-.langue-sm i {
+.langue-sm p {
   text-align: center;
   text-decoration: none;
+}
+
+.langue-sm {
+  flex-direction: column;
+}
+
+.lng-selected {
+  background-color: #e2e6cc;
+  display: block;
+}
+
+.lng-unselected {
+  display: none;
+}
+
+.sm-lng-selector {
+  padding: 8px 0;
+}
+
+.lng-opener {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 25px;
+  top: 35px;
+}
+
+.js-tester {
+  background-color: greenyellow;
 }
 
 .sm-title {
